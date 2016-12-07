@@ -8,11 +8,11 @@ int states[3] = {LOW, LOW, LOW};
 int totalDevices = 3;
 
 
-#define firebaseURl "lightcontrol-65853.firebaseio.com"
-#define authCode "0evGlpa6nMCeVYZTIDus6xDebtS50b4uCS0atqJQ"
+#define firebaseURl "example.firebaseio.com"
+#define authCode "YOUR-KEY"
 
-#define wifiName "Home"
-#define wifiPass "hoaminh8vn"
+#define wifiName "YOUR-WIFI-NAME"
+#define wifiPass "YOUR-WIFI.PASSWORD"
 
 
 String chipId = "123";
