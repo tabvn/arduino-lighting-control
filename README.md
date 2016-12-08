@@ -1,6 +1,6 @@
 # Build lighting control with Arduino , Esp8266 , Firebase
 
-## buys:
+## buy Kit & accessories:
 
 * Buy Nodemcu (based on Esp8266) for testing: http://www.banggood.com/3Pcs-Geekcreit-Doit-NodeMcu-Lua-ESP8266-ESP-12E-WIFI-Development-Board-p-1047938.html?p=FA230451278522016060
 * Buy Led for testing: www.banggood.com/10pcs-5mm-RGB-LED-Common-Cathode-4-Pin-Tri-Color-Emitting-Diodes-F5-p-937475.html?p=FA230451278522016060
