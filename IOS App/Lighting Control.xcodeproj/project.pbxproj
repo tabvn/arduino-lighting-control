@@ -1,0 +1,411 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		540DB03E1DF941E700717AE7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 540DB03D1DF941E700717AE7 /* AppDelegate.swift */; };
+		540DB0451DF941E700717AE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 540DB0441DF941E700717AE7 /* Assets.xcassets */; };
+		540DB0481DF941E700717AE7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 540DB0461DF941E700717AE7 /* LaunchScreen.storyboard */; };
+		540DB0501DF942A600717AE7 /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 540DB04F1DF942A600717AE7 /* MainTableViewController.swift */; };
+		5417FFE91DF9460000217A04 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5417FFE81DF9460000217A04 /* GoogleService-Info.plist */; };
+		5417FFEB1DF9465100217A04 /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5417FFEA1DF9465100217A04 /* Device.swift */; };
+		5417FFEE1DF9478B00217A04 /* DeviceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5417FFED1DF9478B00217A04 /* DeviceTableViewCell.swift */; };
+		CA68DB5BA5DB1502779B8DE0 /* Pods_Lighting_Control.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8E356142E9C1C8E13567757 /* Pods_Lighting_Control.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		04CFC2B32110115A1F08396A /* Pods-Lighting Control.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lighting Control.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Lighting Control/Pods-Lighting Control.debug.xcconfig"; sourceTree = "<group>"; };
+		540DB03A1DF941E700717AE7 /* Lighting Control.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lighting Control.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		540DB03D1DF941E700717AE7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		540DB0441DF941E700717AE7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		540DB0471DF941E700717AE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		540DB0491DF941E700717AE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		540DB04F1DF942A600717AE7 /* MainTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
+		5417FFE81DF9460000217A04 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		5417FFEA1DF9465100217A04 /* Device.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
+		5417FFED1DF9478B00217A04 /* DeviceTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceTableViewCell.swift; sourceTree = "<group>"; };
+		60BE9048DD73C43E96CA3AE5 /* Pods-Lighting Control.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lighting Control.release.xcconfig"; path = "Pods/Target Support Files/Pods-Lighting Control/Pods-Lighting Control.release.xcconfig"; sourceTree = "<group>"; };
+		E8E356142E9C1C8E13567757 /* Pods_Lighting_Control.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lighting_Control.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		540DB0371DF941E700717AE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA68DB5BA5DB1502779B8DE0 /* Pods_Lighting_Control.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C630976C92BF9174719E5FD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E8E356142E9C1C8E13567757 /* Pods_Lighting_Control.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		540DB0311DF941E700717AE7 = {
+			isa = PBXGroup;
+			children = (
+				540DB03C1DF941E700717AE7 /* Lighting Control */,
+				540DB03B1DF941E700717AE7 /* Products */,
+				5DF56C23E846113007935DB9 /* Pods */,
+				3C630976C92BF9174719E5FD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		540DB03B1DF941E700717AE7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				540DB03A1DF941E700717AE7 /* Lighting Control.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		540DB03C1DF941E700717AE7 /* Lighting Control */ = {
+			isa = PBXGroup;
+			children = (
+				5417FFEF1DF9478F00217A04 /* views */,
+				5417FFEC1DF9465600217A04 /* models */,
+				540DB0511DF942AC00717AE7 /* controlers */,
+				540DB03D1DF941E700717AE7 /* AppDelegate.swift */,
+				540DB0441DF941E700717AE7 /* Assets.xcassets */,
+				540DB0461DF941E700717AE7 /* LaunchScreen.storyboard */,
+				540DB0491DF941E700717AE7 /* Info.plist */,
+				5417FFE81DF9460000217A04 /* GoogleService-Info.plist */,
+			);
+			path = "Lighting Control";
+			sourceTree = "<group>";
+		};
+		540DB0511DF942AC00717AE7 /* controlers */ = {
+			isa = PBXGroup;
+			children = (
+				540DB04F1DF942A600717AE7 /* MainTableViewController.swift */,
+			);
+			name = controlers;
+			sourceTree = "<group>";
+		};
+		5417FFEC1DF9465600217A04 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				5417FFEA1DF9465100217A04 /* Device.swift */,
+			);
+			name = models;
+			sourceTree = "<group>";
+		};
+		5417FFEF1DF9478F00217A04 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				5417FFED1DF9478B00217A04 /* DeviceTableViewCell.swift */,
+			);
+			name = views;
+			sourceTree = "<group>";
+		};
+		5DF56C23E846113007935DB9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				04CFC2B32110115A1F08396A /* Pods-Lighting Control.debug.xcconfig */,
+				60BE9048DD73C43E96CA3AE5 /* Pods-Lighting Control.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		540DB0391DF941E700717AE7 /* Lighting Control */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 540DB04C1DF941E700717AE7 /* Build configuration list for PBXNativeTarget "Lighting Control" */;
+			buildPhases = (
+				2A78760D969612A065F0BE71 /* [CP] Check Pods Manifest.lock */,
+				540DB0361DF941E700717AE7 /* Sources */,
+				540DB0371DF941E700717AE7 /* Frameworks */,
+				540DB0381DF941E700717AE7 /* Resources */,
+				1DB430D8F065396370FCF69B /* [CP] Embed Pods Frameworks */,
+				C20E30B52F61A3BCAC454442 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lighting Control";
+			productName = "Lighting Control";
+			productReference = 540DB03A1DF941E700717AE7 /* Lighting Control.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		540DB0321DF941E700717AE7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = tabvn;
+				TargetAttributes = {
+					540DB0391DF941E700717AE7 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 2T57ERQQ78;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 540DB0351DF941E700717AE7 /* Build configuration list for PBXProject "Lighting Control" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 540DB0311DF941E700717AE7;
+			productRefGroup = 540DB03B1DF941E700717AE7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				540DB0391DF941E700717AE7 /* Lighting Control */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		540DB0381DF941E700717AE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				540DB0481DF941E700717AE7 /* LaunchScreen.storyboard in Resources */,
+				540DB0451DF941E700717AE7 /* Assets.xcassets in Resources */,
+				5417FFE91DF9460000217A04 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1DB430D8F065396370FCF69B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Lighting Control/Pods-Lighting Control-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2A78760D969612A065F0BE71 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C20E30B52F61A3BCAC454442 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Lighting Control/Pods-Lighting Control-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		540DB0361DF941E700717AE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5417FFEB1DF9465100217A04 /* Device.swift in Sources */,
+				540DB0501DF942A600717AE7 /* MainTableViewController.swift in Sources */,
+				540DB03E1DF941E700717AE7 /* AppDelegate.swift in Sources */,
+				5417FFEE1DF9478B00217A04 /* DeviceTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		540DB0461DF941E700717AE7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				540DB0471DF941E700717AE7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		540DB04A1DF941E700717AE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		540DB04B1DF941E700717AE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		540DB04D1DF941E700717AE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04CFC2B32110115A1F08396A /* Pods-Lighting Control.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2T57ERQQ78;
+				INFOPLIST_FILE = "Lighting Control/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tabvn.Lighting-Control";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		540DB04E1DF941E700717AE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60BE9048DD73C43E96CA3AE5 /* Pods-Lighting Control.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2T57ERQQ78;
+				INFOPLIST_FILE = "Lighting Control/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tabvn.Lighting-Control";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		540DB0351DF941E700717AE7 /* Build configuration list for PBXProject "Lighting Control" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				540DB04A1DF941E700717AE7 /* Debug */,
+				540DB04B1DF941E700717AE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		540DB04C1DF941E700717AE7 /* Build configuration list for PBXNativeTarget "Lighting Control" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				540DB04D1DF941E700717AE7 /* Debug */,
+				540DB04E1DF941E700717AE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 540DB0321DF941E700717AE7 /* Project object */;
+}

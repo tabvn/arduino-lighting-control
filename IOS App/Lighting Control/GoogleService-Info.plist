@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>846678700161-loiu57v0lgps9pj9mt9baj1fmk6nrbfu.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.846678700161-loiu57v0lgps9pj9mt9baj1fmk6nrbfu</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBDlEL1RK0Jq1m2c05Z_OAQ4AOgtE8-2II</string>
+	<key>GCM_SENDER_ID</key>
+	<string>846678700161</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.tabvn.Lighting-Control</string>
+	<key>PROJECT_ID</key>
+	<string>lightcontrol-65853</string>
+	<key>STORAGE_BUCKET</key>
+	<string>lightcontrol-65853.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:846678700161:ios:83f4757efa9d3739</string>
+	<key>DATABASE_URL</key>
+	<string>https://lightcontrol-65853.firebaseio.com</string>
+</dict>
+</plist>
