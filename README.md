@@ -13,6 +13,10 @@
 * Need install Arduino at https://www.arduino.cc/en/Main/Software
 * Need install Esp8266 library for Arduino https://github.com/esp8266/Arduino
 
-## check videos tutorials
+## Videos tutorial:
 https://www.youtube.com/playlist?list=PLFaW_8zE4amNYyMcfM6cZ7lL_0V8Tem5L
+## Me 
+
+* Facebook: http://facebook.com/TabvnGroup
+* Twitter: https://twitter.com/tabvn
 
