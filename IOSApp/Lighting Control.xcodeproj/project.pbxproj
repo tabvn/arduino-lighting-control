@@ -14,6 +14,7 @@
 		5417FFE91DF9460000217A04 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5417FFE81DF9460000217A04 /* GoogleService-Info.plist */; };
 		5417FFEB1DF9465100217A04 /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5417FFEA1DF9465100217A04 /* Device.swift */; };
 		5417FFEE1DF9478B00217A04 /* DeviceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5417FFED1DF9478B00217A04 /* DeviceTableViewCell.swift */; };
+		548024EC1DFD1F3900C00A87 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 548024EB1DFD1F3900C00A87 /* LoginViewController.swift */; };
 		CA68DB5BA5DB1502779B8DE0 /* Pods_Lighting_Control.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8E356142E9C1C8E13567757 /* Pods_Lighting_Control.framework */; };
 /* End PBXBuildFile section */
 
@@ -28,6 +29,8 @@
 		5417FFE81DF9460000217A04 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		5417FFEA1DF9465100217A04 /* Device.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
 		5417FFED1DF9478B00217A04 /* DeviceTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceTableViewCell.swift; sourceTree = "<group>"; };
+		548024EB1DFD1F3900C00A87 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		548024ED1DFD296F00C00A87 /* Lighting Control.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Lighting Control.entitlements"; sourceTree = "<group>"; };
 		60BE9048DD73C43E96CA3AE5 /* Pods-Lighting Control.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lighting Control.release.xcconfig"; path = "Pods/Target Support Files/Pods-Lighting Control/Pods-Lighting Control.release.xcconfig"; sourceTree = "<group>"; };
 		E8E356142E9C1C8E13567757 /* Pods_Lighting_Control.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lighting_Control.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -73,6 +76,7 @@
 		540DB03C1DF941E700717AE7 /* Lighting Control */ = {
 			isa = PBXGroup;
 			children = (
+				548024ED1DFD296F00C00A87 /* Lighting Control.entitlements */,
 				5417FFEF1DF9478F00217A04 /* views */,
 				5417FFEC1DF9465600217A04 /* models */,
 				540DB0511DF942AC00717AE7 /* controlers */,
@@ -89,6 +93,7 @@
 			isa = PBXGroup;
 			children = (
 				540DB04F1DF942A600717AE7 /* MainTableViewController.swift */,
+				548024EB1DFD1F3900C00A87 /* LoginViewController.swift */,
 			);
 			name = controlers;
 			sourceTree = "<group>";
@@ -155,6 +160,11 @@
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = 2T57ERQQ78;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -245,6 +255,7 @@
 				5417FFEB1DF9465100217A04 /* Device.swift in Sources */,
 				540DB0501DF942A600717AE7 /* MainTableViewController.swift in Sources */,
 				540DB03E1DF941E700717AE7 /* AppDelegate.swift in Sources */,
+				548024EC1DFD1F3900C00A87 /* LoginViewController.swift in Sources */,
 				5417FFEE1DF9478B00217A04 /* DeviceTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -361,6 +372,7 @@
 			baseConfigurationReference = 04CFC2B32110115A1F08396A /* Pods-Lighting Control.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Lighting Control/Lighting Control.entitlements";
 				DEVELOPMENT_TEAM = 2T57ERQQ78;
 				INFOPLIST_FILE = "Lighting Control/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -375,6 +387,7 @@
 			baseConfigurationReference = 60BE9048DD73C43E96CA3AE5 /* Pods-Lighting Control.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Lighting Control/Lighting Control.entitlements";
 				DEVELOPMENT_TEAM = 2T57ERQQ78;
 				INFOPLIST_FILE = "Lighting Control/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

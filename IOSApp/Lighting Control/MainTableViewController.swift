@@ -10,6 +10,8 @@ import UIKit
 
 import FirebaseDatabase
 
+import FirebaseAuth
+
 
 class MainTableViewController: UITableViewController {
 
@@ -27,8 +29,25 @@ class MainTableViewController: UITableViewController {
         
         setupViews()
         
-        fetchDevies()
         
+        
+        
+        
+        if let user = FIRAuth.auth()?.currentUser{
+            // user has logged in
+            
+            fetchDevies()
+            
+        }else{
+            
+            //redirect to login controller
+            
+            let loginVC = LoginViewController()
+            
+            self.present(loginVC, animated: true, completion: { 
+                // for future.
+            })
+        }
         
     }
     
@@ -41,6 +60,26 @@ class MainTableViewController: UITableViewController {
         tableView.dataSource = self
         
         tableView.register(DeviceTableViewCell.self, forCellReuseIdentifier: cellId)
+        
+
+        self.navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Sign Out", style: UIBarButtonItemStyle.plain, target: self, action: #selector(handleLogout))
+    }
+    
+    func handleLogout(){
+    
+        do {
+            try FIRAuth.auth()?.signOut()
+        
+            
+            let loginVC = LoginViewController()
+            
+            self.present(loginVC, animated: true, completion: nil)
+            
+        } catch let signOutError as NSError {
+            print ("Error signing out: %@", signOutError)
+        }
+
+    
     }
     
     func fetchDevies(){
