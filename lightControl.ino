@@ -12,7 +12,7 @@ int totalDevices = 3;
 #define authCode "YOUR-AUTHENTICATION-KEY"
 
 #define wifiName "Home"
-#define wifiPass "hoaminh8vn"
+#define wifiPass "your-password"
 
 
 String chipId = "123";
